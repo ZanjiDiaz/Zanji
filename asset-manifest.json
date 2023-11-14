@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Zanji/static/css/main.328144e4.css",
-    "main.js": "/Zanji/static/js/main.5c6f3c68.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Zanji/static/js/787.1ed0c42c.chunk.js",
-    "static/media/farmhub.jpeg": "/Zanji/static/media/farmhub.c60c4678ff9cbdd62378.jpeg",
-    "static/media/skill-photo.jpg": "/Zanji/static/media/skill-photo.6c4d91ad0983edbf6c19.jpg",
-    "static/media/netflix2.jpg": "/Zanji/static/media/netflix2.42e64db81f51dcfb7f0e.jpg",
-    "static/media/zanji.jpeg": "/Zanji/static/media/zanji.63e93329705f8a1711d7.jpeg",
-    "static/media/unityproj2.png": "/Zanji/static/media/unityproj2.48e721f9f2a67993fc00.png",
-    "static/media/unityproj.png": "/Zanji/static/media/unityproj.f2525a637fec6b79ac57.png",
-    "static/media/cpu.png": "/Zanji/static/media/cpu.6541de36f34f2ad2710d.png",
-    "static/media/game.png": "/Zanji/static/media/game.e9dd003a01a9cd02e257.png",
-    "static/media/blobbotwhite.svg": "/Zanji/static/media/blobbotwhite.95f9dcbdfb90367e7d9d.svg",
-    "static/media/blobtop.svg": "/Zanji/static/media/blobtop.878f710cd12f02e67066.svg",
-    "index.html": "/Zanji/index.html",
-    "main.328144e4.css.map": "/Zanji/static/css/main.328144e4.css.map",
-    "main.5c6f3c68.js.map": "/Zanji/static/js/main.5c6f3c68.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Zanji/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Zanji-Portfolio/static/css/main.64c8b25a.css",
+    "main.js": "/Zanji-Portfolio/static/js/main.3eb30218.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Zanji-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/farmhub.jpeg": "/Zanji-Portfolio/static/media/farmhub.c60c4678ff9cbdd62378.jpeg",
+    "static/media/togamin.jpg": "/Zanji-Portfolio/static/media/togamin.b857f53da73298d4490f.jpg",
+    "static/media/skill-photo.jpg": "/Zanji-Portfolio/static/media/skill-photo.6c4d91ad0983edbf6c19.jpg",
+    "static/media/netflix2.jpg": "/Zanji-Portfolio/static/media/netflix2.42e64db81f51dcfb7f0e.jpg",
+    "static/media/zanji.jpeg": "/Zanji-Portfolio/static/media/zanji.63e93329705f8a1711d7.jpeg",
+    "static/media/unityproj2.png": "/Zanji-Portfolio/static/media/unityproj2.48e721f9f2a67993fc00.png",
+    "static/media/BPSU.png": "/Zanji-Portfolio/static/media/BPSU.bf80f7d3f76122136664.png",
+    "static/media/unityproj.png": "/Zanji-Portfolio/static/media/unityproj.f2525a637fec6b79ac57.png",
+    "static/media/cpu.png": "/Zanji-Portfolio/static/media/cpu.6541de36f34f2ad2710d.png",
+    "static/media/game.png": "/Zanji-Portfolio/static/media/game.e9dd003a01a9cd02e257.png",
+    "static/media/blobbotwhite.svg": "/Zanji-Portfolio/static/media/blobbotwhite.95f9dcbdfb90367e7d9d.svg",
+    "static/media/blobtop.svg": "/Zanji-Portfolio/static/media/blobtop.878f710cd12f02e67066.svg",
+    "index.html": "/Zanji-Portfolio/index.html",
+    "main.64c8b25a.css.map": "/Zanji-Portfolio/static/css/main.64c8b25a.css.map",
+    "main.3eb30218.js.map": "/Zanji-Portfolio/static/js/main.3eb30218.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Zanji-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.328144e4.css",
-    "static/js/main.5c6f3c68.js"
+    "static/css/main.64c8b25a.css",
+    "static/js/main.3eb30218.js"
   ]
 }

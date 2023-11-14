@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZanjiDiaz.github.io/Zanji",
+  "homepage": "https://ZanjiDiaz.github.io/Zanji/",
   "dependencies": {
     "@mdi/js": "^7.3.67",
     "@mdi/react": "^1.6.1",

@@ -1,0 +1,62 @@
+.bg-pattern {
+  background-image: url("../img/blobtop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  line-height: 35px;
+  max-width: 500px;
+}
+
+.text-details {
+  font-weight: normal;
+}
+
+.magicpattern {
+  background: url("../img/zanji.jpeg");
+  background-size: cover;
+  background-position: center center;
+  animation: blob 5s ease-in-out infinite reverse;
+  transition: all 1s ease-in-out;
+  box-shadow: 1px 1px 52px -12px rgb(255, 252, 252);
+  -webkit-box-shadow: 1px 1px 52px -12px rgb(247, 246, 246);
+  z-index: 0;
+  -moz-box-shadow: 1px 1px 52px -12px rgb(253, 253, 253);
+}
+.scroll-to-projects {
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+.scroll-to-projects svg {
+  animation: scroll 1s ease infinite alternate-reverse;
+}
+.scroll-to-projects svg:hover {
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 60% 40% 20% 70%/60% 30% 30% 60%;
+  }
+  50% {
+    border-radius: 20% 60% 70% 30%/30% 50% 20% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 20% 70%/60% 30% 30% 60%;
+  }
+}

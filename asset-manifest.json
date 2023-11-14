@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zanji/static/css/main.328144e4.css",
-    "main.js": "/Zanji/static/js/main.ed109155.js",
+    "main.js": "/Zanji/static/js/main.5c6f3c68.js",
     "static/js/787.1ed0c42c.chunk.js": "/Zanji/static/js/787.1ed0c42c.chunk.js",
     "static/media/farmhub.jpeg": "/Zanji/static/media/farmhub.c60c4678ff9cbdd62378.jpeg",
     "static/media/skill-photo.jpg": "/Zanji/static/media/skill-photo.6c4d91ad0983edbf6c19.jpg",
@@ -15,11 +15,11 @@
     "static/media/blobtop.svg": "/Zanji/static/media/blobtop.878f710cd12f02e67066.svg",
     "index.html": "/Zanji/index.html",
     "main.328144e4.css.map": "/Zanji/static/css/main.328144e4.css.map",
-    "main.ed109155.js.map": "/Zanji/static/js/main.ed109155.js.map",
+    "main.5c6f3c68.js.map": "/Zanji/static/js/main.5c6f3c68.js.map",
     "787.1ed0c42c.chunk.js.map": "/Zanji/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.328144e4.css",
-    "static/js/main.ed109155.js"
+    "static/js/main.5c6f3c68.js"
   ]
 }

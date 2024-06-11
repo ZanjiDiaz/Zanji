@@ -2,9 +2,9 @@ import React from "react";
 import "../assets/css/projects.css";
 import Web from "../assets/img/skill-photo.jpg";
 import Netflix from "../assets/img/netflix2.jpg";
-import farmhub from "../assets/img/farmhub.jpeg";
+import tailwindcss from "../assets/img/tailwindcss.png";
 import Unity from "../assets/img/unityproj.png";
-import Unity2 from "../assets/img/unityproj2.png";
+import geospy from "../assets/img/geospy.png";
 import cpu from "../assets/img/cpu.png";
 const ProjectBox = (props: any) => {
   return (
@@ -63,18 +63,18 @@ const projects = () => {
           link="https://www.mediafire.com/file/abehelndqco60ma/Endless_build_6.21.21.apk/file"
         />
         <ProjectBox
-          title="FarmHub"
-          type="Web App"
-          image={farmhub}
-          link="https://farmhubbpsu.com/"
-          details="FarmHub: An Online Farming Management Portal is a web application, it is platform for farmers to seek information related to agriculture and will be used as a way to improve their service marketing. "
+          title="Sample Company Website"
+          type="Website"
+          image={tailwindcss}
+          link="https://zanjidiaz.github.io/ReactJS-Tailwind/"
+          details="This is a sample company website that I have made using ReactJS and TailwindCSS."
         />
         <ProjectBox
-          title="The Pandemic"
-          type="PC Game"
-          image={Unity2}
-          details="In The Pandemic game, your task is to identify and escort infected individuals to the hospital during a pandemic, all while managing limited resources and making crucial decisions."
-          link="https://www.mediafire.com/file/abehelndqco60ma/Endless_build_6.21.21.apk/file"
+          title="GeoSpy"
+          type="Browser Game"
+          image={geospy}
+          details="GeoSpy is a free version of the popular game 'GeoGuessr', I made this so that people who can't afford the monthly subscription of GeoGuessr can experience the game for FREE!."
+          link="https://zanjidiaz.github.io/GeoSpy/"
         />
         <ProjectBox
           title="Netflix Clone"

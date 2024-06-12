@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Zanji-Portfolio/static/css/main.1bea751c.css",
-    "main.js": "/Zanji-Portfolio/static/js/main.9836ee6f.js",
+    "main.css": "/Zanji-Portfolio/static/css/main.a46f9f0e.css",
+    "main.js": "/Zanji-Portfolio/static/js/main.f7058aca.js",
     "static/js/453.ace21015.chunk.js": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/endless.mp4": "/Zanji-Portfolio/static/media/endless.d1e5bf947d14d099460f.mp4",
     "static/media/7.jpg": "/Zanji-Portfolio/static/media/7.9876e18c045f12ab6c63.jpg",
@@ -19,9 +19,9 @@
     "static/media/companyweb.png": "/Zanji-Portfolio/static/media/companyweb.6ece1e8c3b1ac5ab7913.png",
     "static/media/iphone.png": "/Zanji-Portfolio/static/media/iphone.7b8745e9c91b7409282d.png",
     "static/media/appshowcase.png": "/Zanji-Portfolio/static/media/appshowcase.634702a1882b239ed7b2.png",
+    "static/media/myphoto.png": "/Zanji-Portfolio/static/media/myphoto.66ede0faf80dec28f893.png",
     "static/media/netflix.png": "/Zanji-Portfolio/static/media/netflix.7bb162d291986475c325.png",
     "static/media/its.png": "/Zanji-Portfolio/static/media/its.6c5c4858a17eb79d17a6.png",
-    "static/media/adobexd.png": "/Zanji-Portfolio/static/media/adobexd.5a026daf2ca1c0945003.png",
     "static/media/starbucks.png": "/Zanji-Portfolio/static/media/starbucks.fcb7c7b7de9c94f21585.png",
     "static/media/word.png": "/Zanji-Portfolio/static/media/word.c0ddd4a511d03dc11472.png",
     "static/media/MOS.png": "/Zanji-Portfolio/static/media/MOS.8968a61fffc3c0b8d111.png",
@@ -31,12 +31,10 @@
     "static/media/wordpress.png": "/Zanji-Portfolio/static/media/wordpress.677ef4544cab80a0c451.png",
     "static/media/dict.png": "/Zanji-Portfolio/static/media/dict.8a2b87d12e8ba23a395a.png",
     "static/media/endless.jpg": "/Zanji-Portfolio/static/media/endless.bab58300c1fb627defb0.jpg",
-    "static/media/androidstudio.png": "/Zanji-Portfolio/static/media/androidstudio.45c9e7df8162d9adb2e7.png",
     "static/media/company1.png": "/Zanji-Portfolio/static/media/company1.68afef75ccfb53e690e0.png",
     "static/media/company2.png": "/Zanji-Portfolio/static/media/company2.e0c9f8c588d43c12de92.png",
     "static/media/react.png": "/Zanji-Portfolio/static/media/react.535fbaddcb76497426c2.png",
     "static/media/logo-vertical.png": "/Zanji-Portfolio/static/media/logo-vertical.72559fddb535682c0493.png",
-    "static/media/firebase.png": "/Zanji-Portfolio/static/media/firebase.22ade27d533c69e7204a.png",
     "static/media/photoshop.png": "/Zanji-Portfolio/static/media/photoshop.aa594ea67d2715ea4abe.png",
     "static/media/company3.png": "/Zanji-Portfolio/static/media/company3.884744e7ab2a91feed31.png",
     "static/media/figma.png": "/Zanji-Portfolio/static/media/figma.1475cc523b5f4c537bd9.png",
@@ -47,12 +45,12 @@
     "static/media/slick.ttf": "/Zanji-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Zanji-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Zanji-Portfolio/index.html",
-    "main.1bea751c.css.map": "/Zanji-Portfolio/static/css/main.1bea751c.css.map",
-    "main.9836ee6f.js.map": "/Zanji-Portfolio/static/js/main.9836ee6f.js.map",
+    "main.a46f9f0e.css.map": "/Zanji-Portfolio/static/css/main.a46f9f0e.css.map",
+    "main.f7058aca.js.map": "/Zanji-Portfolio/static/js/main.f7058aca.js.map",
     "453.ace21015.chunk.js.map": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bea751c.css",
-    "static/js/main.9836ee6f.js"
+    "static/css/main.a46f9f0e.css",
+    "static/js/main.f7058aca.js"
   ]
 }

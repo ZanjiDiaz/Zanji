@@ -1,51 +1,49 @@
 import React from "react";
-import mos from "../../assets/image/certifications/MOS.png"
-import its from "../../assets/image/certifications/its.png"
-import word from "../../assets/image/certifications/word.png"
-import pp from "../../assets/image/certifications/pp.png"
-import excel from "../../assets/image/certifications/excel.png"
-import tday from "../../assets/image/certifications/3day.png"
-import dict from "../../assets/image/certifications/dict.png"
+import mos from "../../assets/image/certifications/MOS.png";
+import its from "../../assets/image/certifications/its.png";
+import word from "../../assets/image/certifications/word.png";
+import pp from "../../assets/image/certifications/pp.png";
+import excel from "../../assets/image/certifications/excel.png";
+import tday from "../../assets/image/certifications/3day.png";
+import dict from "../../assets/image/certifications/dict.png";
 const content = () => {
   const certifications = [
-   
     {
       name: "Microsoft Word (2019)",
       image: word,
-      details:"June 2023",
+      details: "June 2023",
     },
     {
       name: "Microsoft Excel (2019)",
       image: excel,
-      details:"June 2023",
+      details: "June 2023",
     },
     {
       name: "Microsoft PowerPoint (2019)",
       image: pp,
-      details:"June 2023",
+      details: "June 2023",
     },
     {
       name: "Microsoft Office Specialist - Associate",
       image: mos,
-      details:"June 2023",
+      details: "June 2023",
     },
     {
       name: "3-Day Digital Literacy Training: Website and MobileApp Creation",
       image: tday,
-      details:"January 2023",
+      details: "January 2023",
     },
     {
       name: "Using HTML and CSS to Design a Website",
       image: dict,
-      details:"July 2022",
+      details: "July 2022",
     },
     {
       name: "ITS - Network Security",
       image: its,
-      details:"June 2022",
+      details: "June 2022",
     },
-   
-  ]
+  ];
   return (
     <>
       {" "}
@@ -56,15 +54,20 @@ const content = () => {
               How I started
             </p>
             <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
-            <span className=" text-blue-300 font-league text-6xl text-center">My Story</span>
+              <span className=" text-blue-300 font-league text-6xl text-center">
+                My Story
+              </span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8 dark:text-darkLight">
-              Why would you choose <span className=" font-league font-bold text-2xl text-gray-900 dark:text-lightBG">jizandev</span>?
+              Why would you choose{" "}
+              <span className=" font-league font-bold text-2xl text-gray-900 dark:text-lightBG">
+                jizandev
+              </span>
+              ?
             </p>
           </div>
 
           <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-full lg:grid-cols-4">
-            
             <li className="flex-start group relative flex lg:flex-col">
               <span
                 className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)] dark:bg-dark"
@@ -90,7 +93,10 @@ const content = () => {
                   What, When and Where
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                My name is Jizan, and my journey into web development began during my college days, particularly during our capstone project. Prior to delving into web development, I was immersed in learning Unity game development techniques.
+                  My name is Jizan, and my journey into web development began
+                  during my college days, particularly during our capstone
+                  project. Prior to delving into web development, I was immersed
+                  in learning Unity game development techniques.
                 </h4>
               </div>
             </li>
@@ -120,7 +126,11 @@ const content = () => {
                   The problem
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                When beginning my capstone project, I identified the problem of unresponsiveness in the project's websites across various devices. Similarly, I've faced challenges such as responsiveness issues, slow loading times, and unattractive user interfaces in my own projects.
+                  When beginning my capstone project, I identified the problem
+                  of unresponsiveness in the project's websites across various
+                  devices. Similarly, I've faced challenges such as
+                  responsiveness issues, slow loading times, and unattractive
+                  user interfaces in my own projects.
                 </h4>
               </div>
             </li>
@@ -147,7 +157,9 @@ const content = () => {
                   The solution
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                In certain projects, I employ a "mobile-first" strategy for web app development, emphasizing optimization for both mobile and desktop devices using ReactJS and TailwindCSS.
+                  In certain projects, I employ a "mobile-first" strategy for
+                  web app development, emphasizing optimization for both mobile
+                  and desktop devices using ReactJS and TailwindCSS.
                 </h4>
               </div>
             </li>
@@ -171,7 +183,11 @@ const content = () => {
                   Present
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                Continuously honing my skills, I stay updated on the latest front-end development trends to meet industry standards. My commitment to excellence ensures I consistently exceed expectations, driving user engagement with exceptional web designs.
+                  Continuously honing my skills, I stay updated on the latest
+                  front-end development trends to meet industry standards. My
+                  commitment to excellence ensures I consistently exceed
+                  expectations, driving user engagement with exceptional web
+                  designs.
                 </h4>
               </div>
             </li>
@@ -179,41 +195,40 @@ const content = () => {
         </div>
       </section>
       <div className="bg-white py-24 sm:py-32 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
-      <div className="text-center mb-24">
-            <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-darkLight">
-              Credentials
-            </p>
-            <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
-              <span className=" text-blue-300 font-league text-6xl text-center">Trainings and Certifications</span>
-            </h2>
-          </div>
-        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
-          
+        <div className="text-center mb-24">
+          <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-darkLight">
+            Credentials
+          </p>
+          <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
+            <span className=" text-blue-300 font-league text-6xl text-center">
+              Trainings and Certifications
+            </span>
+          </h2>
+        </div>
+        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           <ul
             role="list"
-            className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3"
+            className="grid gap-x-8 gap-y-12 col-span-1 sm:gap-y-16 md:grid-cols-2 md:col-span-2 lg:grid-cols-3 lg:col-span-3"
           >
             {certifications.map((certifications) => (
               <li>
-              <div className="flex items-center gap-x-6">
-                <img
-                  className=" h-40 w-52 rounded-md object-fill"
-                  src={certifications.image}
-                  alt=""
-                ></img>
-                <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
-                    {certifications.name}
-                  </h3>
-                  <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
-                  {certifications.details}
-                  </p>
+                <div className="flex items-center gap-x-6 max-w-7xl">
+                  <img
+                    className=" h-40 w-52 rounded-md object-fill"
+                    src={certifications.image}
+                    alt=""
+                  ></img>
+                  <div>
+                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
+                      {certifications.name}
+                    </h3>
+                    <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
+                      {certifications.details}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </li>
-            ))
-            }
-            
+              </li>
+            ))}
           </ul>
         </div>
       </div>

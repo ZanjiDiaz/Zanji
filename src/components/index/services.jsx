@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/css/background.css";
+import { FaReact, FaMicrosoft , FaUnity, FaLaptop } from "react-icons/fa";
 import {
   WrenchScrewdriverIcon,
   AcademicCapIcon,
@@ -9,24 +10,24 @@ import {
 
 const features = [
   {
-    name: "Custom App",
-    description: "We will create a Mobile app based on your ideas!",
-    icon: WrenchScrewdriverIcon,
+    name: "Front-End Web Development",
+    description: "I focus on web page creation, interactivity, and interface development using HTML, CSS, JavaScript, jQuery, ReactJS, and TailwindCSS.",
+    icon: FaReact,
   },
   {
-    name: "Expert Consultancy",
-    description: "Want to get a feedback from an expert?",
-    icon: AcademicCapIcon,
+    name: "Game Development",
+    description: "I possess basic skills in C# scripting and Unity for game development, focusing on creating interactive experiences.",
+    icon: FaUnity, 
   },
   {
-    name: "Custom Website",
-    description: "We will create a website based on your designs and ideas!",
-    icon: WindowIcon,
+    name: "Microsoft Office Apps",
+    description: "I am certified in Microsoft Word, Excel, and PowerPoint, proficient in utilizing these applications for document creation, data analysis, and presentation design.",
+    icon: FaMicrosoft,
   },
   {
-    name: "Prototype Design",
-    description: "Not a designer by nature?",
-    icon: PuzzlePieceIcon,
+    name: "IT Support",
+    description: "I have networking and basic to advanced troubleshooting skills, enabling me to diagnose and resolve technical issues efficiently, ensuring smooth operation of computer systems and networks.",
+    icon: FaLaptop ,
   },
 ];
 const services = () => {
@@ -36,15 +37,13 @@ const services = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center dark:text-darkLight">
-              Our Services
+              Skills
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center dark:text-lightBG">
-              Everything you need to deploy your app
+              Everything I know
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+            Most of the skills listed are entry-level, demonstrating my foundational knowledge and readiness to grow in the web development field.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

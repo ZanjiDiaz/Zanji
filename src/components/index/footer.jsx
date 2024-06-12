@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/image/logos-software/logo-vertical.png";
 import { Link } from "react-router-dom";
+import { Router } from "react-router-dom";
 const footer = () => {
   return (
     <section className="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
@@ -10,7 +11,7 @@ const footer = () => {
           <h1 className=" font-league text-left font-bold text-xl text-gray-900 dark:text-lightBG">jizandev.</h1>
 
             <p className="text-left leading-relaxed text-gray-600 mt-7 dark:text-darkLight">
-              Ullamco labore labore culpa cupidatat consectetur cillum exercitation excepteur pariatur nulla laboris dolor.
+            Aspiring front-end web developer actively seeking opportunities to code and shape the future.
             </p>
 
             <ul className="flex items-center space-x-3 mt-9">
@@ -92,20 +93,11 @@ const footer = () => {
 
           <div>
             <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
-              Company
+              Projects
             </p>
 
             <ul className="mt-6 space-y-4">
-              <li>
-                <Link
-                  to="/about"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
-                >
-                  {" "}
-                  About{" "}
-                </Link>
-              </li>
+              
               <li>
                 <Link
                   to="/mobileapps"
@@ -140,26 +132,16 @@ const footer = () => {
           </div>
 
           <div>
-            <p className="text-sm text-left font-semibold tracking-widest text-transparent uppercase select-none">
-              Help
+            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
+              Support me
             </p>
 
             <ul className="mt-6 space-y-4">
-              <li>
-                <Link
-                  to="/career"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
-                >
-                  {" "}
-                  Career{" "}
-                </Link>
-              </li>
-
+            
               <li>
                 <a
                   target="_blank"
-                  href="#"
+                  href="https://buymeacoffee.com/jizandev"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
@@ -172,37 +154,26 @@ const footer = () => {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
-              Subscribe to newsletter
+              Contact
             </p>
 
-            <form action="#" method="POST" className="mt-6 flex flex-col">
-              <div>
-                <label for="email" className="sr-only">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter your email"
-                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-tertiary caret-tertiary dark:bg-darkLight dark:ring-1 dark:border-0 dark:focus:border-0 dark:ring-lightBG/5 dark:caret-lightBG dark:placeholder-darkBG"
-                />
-              </div>
+            <div className="mt-6 flex flex-col">
+             
 
-              <button
-                type="submit"
+              <a
+                href="mailto:diazjizan@gmail.com"
                 className="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary dark:bg-darkLight dark:text-darkBG dark:hover:bg-dark dark:hover:text-darkLight"
               >
-                Subscribe
-              </button>
-            </form>
+                Hire me
+              </a>
+            </div>
           </div>
         </div>
 
         <hr className="mt-16 mb-10 border-gray-200 dark:ring-1 dark:ring-lightBG/5" />
 
         <p className="text-sm text-center text-gray-600 dark:text-darkLight">
-          © Copyright 2024, All Rights Reserved by Jizan
+          © Copyright 2024, All Rights Reserved by <span className="font-league font-bold text-gray-900 dark:text-lightBG">jizandev.</span>
         </p>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
+import { FaUnity } from "react-icons/fa";
 import {
   ArrowPathIcon,
   Bars3Icon,
@@ -14,6 +15,7 @@ import {
   ChevronDownIcon,
   PhoneIcon,
   PlayCircleIcon,
+  
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/image/logos-software/logo-horizontal.png";
@@ -30,11 +32,11 @@ const products = [
     href: "/websites",
     icon: ComputerDesktopIcon,
   },
-  {
-    name: "Prototype Designs",
-    href: "/designs",
-    icon: PhotoIcon,
-  },
+    {
+      name: "Dekstop Game",
+      href: "/designs",
+      icon: FaUnity,
+    },
 ];
 const callsToAction = [
   { name: "Watch demo", href: "#", icon: PlayCircleIcon },
@@ -96,7 +98,7 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 dark:ring-lightBG/5 dark:shadow-darkBG dark:bg-darkBG dark:divide-y dark:divide-lightBG/5">
+              <Popover.Panel className="absolute -left-[10rem] top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 dark:ring-lightBG/5 dark:shadow-darkBG dark:bg-darkBG dark:divide-y dark:divide-lightBG/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
@@ -143,18 +145,7 @@ export default function Example() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <Link
-            to="/clients"
-            className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
-          >
-            Our Clients
-          </Link>
-          <Link
-            to="/career"
-            className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
-          >
-            Careers
-          </Link>
+          
           <Link
             to="/about"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
@@ -190,7 +181,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-12 w-auto" src={LogoVert} alt="" />
+              <h1 className=" font-league font-bold text-xl text-gray-900 dark:text-lightBG">jizandev.</h1>
             </Link>
             <button
               type="button"
@@ -236,18 +227,8 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                <Link
-                  to="/clients"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
-                >
-                  Our Clients
-                </Link>
-                <Link
-                  to="/career"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
-                >
-                  Careers
-                </Link>
+                
+                
                 <Link
                   to="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"

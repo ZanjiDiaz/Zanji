@@ -6,9 +6,10 @@ import pic4 from "../../assets/image/promotional/4.jpg";
 import pic5 from "../../assets/image/promotional/5.jpg";
 import pic6 from "../../assets/image/promotional/6.jpg";
 import pic7 from "../../assets/image/promotional/7.jpg";
-import starbucksweb from "../../assets/image/Screenshots/Starbucksweb.png"
-import uberweb from "../../assets/image/Screenshots/Uberweb.png"
-import yummlyweb from "../../assets/image/Screenshots/yummlyweb.png"
+import companyweb from "../../assets/image/promotional/companyweb.png"
+import geospy from "../../assets/image/promotional/geospy.png"
+import portfolio from "../../assets/image/promotional/appshowcase.png";
+import netflix from "../../assets/image/Screenshots/netflix.png"
 import { useRef } from "react";
 const Content = () => {
   const ref = useRef(null);
@@ -17,22 +18,28 @@ const Content = () => {
   };
   const websiteScreen = [
     {
-      app: "Yummly",
-      imgUrl: yummlyweb,
+      app: "My Portfolio",
+      imgUrl: portfolio,
       description: "",
-      link: "https://www.yummly.com/",
+      link: "https://zanjidiaz.github.io/Zanji-Portfolio/",
     },
     {
-      app: "Starbucks",
-      imgUrl: starbucksweb,
+      app: "GeoSpy",
+      imgUrl: geospy,
       description: "",
-      link: "https://app.starbucks.com/",
+      link: "https://zanjidiaz.github.io/GeoSpy/",
     },
     {
-      app: "Uber",
-      imgUrl: uberweb,
+      app: "Company Website",
+      imgUrl: companyweb,
       description: "",
-      link: "https://m.uber.com/",
+      link: "https://zanjidiaz.github.io/ReactJS-Tailwind/",
+    },
+    {
+      app: "Netflix App (Profile Section)",
+      imgUrl: netflix,
+      description: "",
+      link: "https://zanjidiaz.github.io/netflix-app/",
     },
   ];
   return (
@@ -42,12 +49,10 @@ const Content = () => {
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-lightBG">
-                Responsive Web Applications
+                Web Applications
               </h1>
               <p className="mt-4 text-xl text-gray-500 dark:darkLight">
-                Elevate your online presence with our dynamic solutions,
-                seamlessly adapting to every device. Join us and unlock your
-                website's potential across all platforms.
+              Having a foundational understanding of web design and front-end development, I am equipped to create basic websites yet visually appealing user interfaces.
               </p>
             </div>
             <div>
@@ -123,7 +128,7 @@ const Content = () => {
                   onClick={handleClick}
                   className="hidden rounded-md border border-transparent bg-primary px-8 py-3 text-center font-medium text-white hover:bg-secondary md:inline-block dark:bg-darkLight dark:text-dark dark:hover:bg-dark dark:hover:text-lightBG"
                 >
-                  See our websites
+                  See my websites
                 </button>
               </div>
             </div>
@@ -137,13 +142,13 @@ const Content = () => {
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center dark:text-darkLight">
-              Lorem Ipsum
+              HTML + CSS / ReactJS + Tailwind
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center dark:text-lightBG">
-              Lorem Ipsul dolor
+              Front-End Web Development
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-            All images you see here is for showcase purposes only. I do not own the licence of the photos.
+            As an entry-level front-end developer, I focus on web page creation, interactivity, and interface development using HTML, CSS, JavaScript, jQuery, ReactJS, and TailwindCSS.
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
@@ -153,12 +158,12 @@ const Content = () => {
                   <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800 ">
                     <img
                       src={websiteScreen.imgUrl}
-                      className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl object-contain"
+                      className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl object-fill"
                       alt={websiteScreen.app}
                     ></img>
                     <img
                       src={websiteScreen.imgUrl}
-                      className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg object-contain"
+                      className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg object-fill"
                       alt={websiteScreen.app}
                     ></img>
                   </div>

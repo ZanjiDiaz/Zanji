@@ -133,13 +133,13 @@ const Content = () => {
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center dark:text-darkLight">
-              Lorem Ipsum
+              C# Scripting
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center dark:text-lightBG">
-              Lorem Ipsul dolor
+              Unity Game Development
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-            All images you see here is for showcase purposes only. I do not own the licence of the photos.
+              With a fundamental understanding of Unity and proficiency in C# scripting, I can develop simple yet entertaining Unity mobile games.
             </p>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-1 xl:gap-x-8">

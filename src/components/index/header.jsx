@@ -34,7 +34,7 @@ const products = [
   },
     {
       name: "Dekstop Game",
-      href: "/designs",
+      href: "/pcgame",
       icon: FaUnity,
     },
 ];
@@ -249,7 +249,7 @@ export default function Example() {
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
                 >
-                  Hire Us
+                  Hire me
                 </Link>
               </div>
             </div>

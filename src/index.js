@@ -33,7 +33,7 @@ const router = createHashRouter([
     element: <Webiste />,
   },
   {
-    path: "/designs",
+    path: "/pcgame",
     element: <Design />,
   },
   {

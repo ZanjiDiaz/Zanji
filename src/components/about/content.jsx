@@ -1,6 +1,51 @@
 import React from "react";
-
+import mos from "../../assets/image/certifications/MOS.png"
+import its from "../../assets/image/certifications/its.png"
+import word from "../../assets/image/certifications/word.png"
+import pp from "../../assets/image/certifications/pp.png"
+import excel from "../../assets/image/certifications/excel.png"
+import tday from "../../assets/image/certifications/3day.png"
+import dict from "../../assets/image/certifications/dict.png"
 const content = () => {
+  const certifications = [
+   
+    {
+      name: "Microsoft Word (2019)",
+      image: word,
+      details:"June 2023",
+    },
+    {
+      name: "Microsoft Excel (2019)",
+      image: excel,
+      details:"June 2023",
+    },
+    {
+      name: "Microsoft PowerPoint (2019)",
+      image: pp,
+      details:"June 2023",
+    },
+    {
+      name: "Microsoft Office Specialist - Associate",
+      image: mos,
+      details:"June 2023",
+    },
+    {
+      name: "3-Day Digital Literacy Training: Website and MobileApp Creation",
+      image: tday,
+      details:"January 2023",
+    },
+    {
+      name: "Using HTML and CSS to Design a Website",
+      image: dict,
+      details:"July 2022",
+    },
+    {
+      name: "ITS - Network Security",
+      image: its,
+      details:"June 2022",
+    },
+   
+  ]
   return (
     <>
       {" "}
@@ -14,7 +59,7 @@ const content = () => {
               Our story
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8 dark:text-darkLight">
-              Why would you choose our Company?
+              Why would you choose <span className=" font-league font-bold text-2xl text-gray-900 dark:text-lightBG">jizandev</span>?
             </p>
           </div>
           <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-full lg:grid-cols-4">
@@ -135,52 +180,37 @@ const content = () => {
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-lightBG">
-              Meet our team
+              My Trainings and Certifications
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-darkLight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in
-              risus nec nunc cursus ornare. Proin molestie libero a auctor
-              euismod.
+              During my time in college, I successfully earned certification in my chosen field of study.
             </p>
           </div>
           <ul
             role="list"
-            className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
+            className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3"
           >
-            <li>
+            {certifications.map((certifications) => (
+              <li>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-16 w-16 rounded-full"
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  className=" h-40 w-52 rounded-md object-fill"
+                  src={certifications.image}
                   alt=""
                 ></img>
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
-                    Jane Doe
+                    {certifications.name}
                   </h3>
                   <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
-                    CEO
+                  {certifications.details}
                   </p>
                 </div>
               </div>
             </li>
-            <li>
-              <div className="flex items-center gap-x-6">
-                <img
-                  className="h-16 w-16 rounded-full"
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt=""
-                ></img>
-                <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
-                    Jizan Villafuerte
-                  </h3>
-                  <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
-                    Front-End Developer
-                  </p>
-                </div>
-              </div>
-            </li>
+            ))
+            }
+            
           </ul>
         </div>
       </div>

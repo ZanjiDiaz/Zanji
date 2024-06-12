@@ -110,7 +110,7 @@ const footer = () => {
               </li>
               <li>
                 <Link
-                  to="/website"
+                  to="/websites"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
@@ -120,12 +120,12 @@ const footer = () => {
               </li>
               <li>
                 <Link
-                  to="/design"
+                  to="/pcgame"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
-                  Designs{" "}
+                  Desktop Game{" "}
                 </Link>
               </li>
             </ul>
@@ -153,20 +153,12 @@ const footer = () => {
           </div>
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
-              Contact
-            </p>
-
-            <div className="mt-6 flex flex-col">
-             
-
               <a
                 href="mailto:diazjizan@gmail.com"
                 className="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary dark:bg-darkLight dark:text-darkBG dark:hover:bg-dark dark:hover:text-darkLight"
               >
                 Hire me
               </a>
-            </div>
           </div>
         </div>
 

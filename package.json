@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://zanjidiaz.github.io/Portfolio/",
+  "homepage": "https://zanjidiaz.github.io/Zanji-Portfolio/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",

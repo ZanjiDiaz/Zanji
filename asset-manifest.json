@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zanji-Portfolio/static/css/main.a46f9f0e.css",
-    "main.js": "/Zanji-Portfolio/static/js/main.f768e238.js",
+    "main.js": "/Zanji-Portfolio/static/js/main.0b60f10e.js",
     "static/js/453.ace21015.chunk.js": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/endless.mp4": "/Zanji-Portfolio/static/media/endless.d1e5bf947d14d099460f.mp4",
     "static/media/7.jpg": "/Zanji-Portfolio/static/media/7.9876e18c045f12ab6c63.jpg",
@@ -46,11 +46,11 @@
     "static/media/slick.woff": "/Zanji-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Zanji-Portfolio/index.html",
     "main.a46f9f0e.css.map": "/Zanji-Portfolio/static/css/main.a46f9f0e.css.map",
-    "main.f768e238.js.map": "/Zanji-Portfolio/static/js/main.f768e238.js.map",
+    "main.0b60f10e.js.map": "/Zanji-Portfolio/static/js/main.0b60f10e.js.map",
     "453.ace21015.chunk.js.map": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a46f9f0e.css",
-    "static/js/main.f768e238.js"
+    "static/js/main.0b60f10e.js"
   ]
 }

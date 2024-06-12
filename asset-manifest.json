@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Zanji-Portfolio/static/css/main.936e8e18.css",
-    "main.js": "/Zanji-Portfolio/static/js/main.86596290.js",
+    "main.css": "/Zanji-Portfolio/static/css/main.6c89a861.css",
+    "main.js": "/Zanji-Portfolio/static/js/main.abde8ddd.js",
     "static/js/453.ace21015.chunk.js": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/endless.mp4": "/Zanji-Portfolio/static/media/endless.d1e5bf947d14d099460f.mp4",
     "static/media/7.jpg": "/Zanji-Portfolio/static/media/7.9876e18c045f12ab6c63.jpg",
@@ -15,14 +15,21 @@
     "static/media/5.jpg": "/Zanji-Portfolio/static/media/5.87f31ad5d55ed3d72fa3.jpg",
     "static/media/geospy.png": "/Zanji-Portfolio/static/media/geospy.34513e78349afe4b4e60.png",
     "static/media/uber.png": "/Zanji-Portfolio/static/media/uber.9d99ca3fdaed99a468ee.png",
+    "static/media/3day.png": "/Zanji-Portfolio/static/media/3day.315f9f37285d05d4d35d.png",
     "static/media/companyweb.png": "/Zanji-Portfolio/static/media/companyweb.6ece1e8c3b1ac5ab7913.png",
     "static/media/iphone.png": "/Zanji-Portfolio/static/media/iphone.7b8745e9c91b7409282d.png",
     "static/media/appshowcase.png": "/Zanji-Portfolio/static/media/appshowcase.634702a1882b239ed7b2.png",
     "static/media/netflix.png": "/Zanji-Portfolio/static/media/netflix.7bb162d291986475c325.png",
+    "static/media/its.png": "/Zanji-Portfolio/static/media/its.6c5c4858a17eb79d17a6.png",
     "static/media/adobexd.png": "/Zanji-Portfolio/static/media/adobexd.5a026daf2ca1c0945003.png",
     "static/media/starbucks.png": "/Zanji-Portfolio/static/media/starbucks.fcb7c7b7de9c94f21585.png",
+    "static/media/word.png": "/Zanji-Portfolio/static/media/word.c0ddd4a511d03dc11472.png",
+    "static/media/MOS.png": "/Zanji-Portfolio/static/media/MOS.8968a61fffc3c0b8d111.png",
     "static/media/pandemic.png": "/Zanji-Portfolio/static/media/pandemic.8a0a944a3bf7dbbf65a8.png",
+    "static/media/excel.png": "/Zanji-Portfolio/static/media/excel.488c58d127020dfc6e26.png",
+    "static/media/pp.png": "/Zanji-Portfolio/static/media/pp.11bb0caaa76fb0656c89.png",
     "static/media/wordpress.png": "/Zanji-Portfolio/static/media/wordpress.677ef4544cab80a0c451.png",
+    "static/media/dict.png": "/Zanji-Portfolio/static/media/dict.8a2b87d12e8ba23a395a.png",
     "static/media/endless.jpg": "/Zanji-Portfolio/static/media/endless.bab58300c1fb627defb0.jpg",
     "static/media/androidstudio.png": "/Zanji-Portfolio/static/media/androidstudio.45c9e7df8162d9adb2e7.png",
     "static/media/company1.png": "/Zanji-Portfolio/static/media/company1.68afef75ccfb53e690e0.png",
@@ -41,12 +48,12 @@
     "static/media/slick.ttf": "/Zanji-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Zanji-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Zanji-Portfolio/index.html",
-    "main.936e8e18.css.map": "/Zanji-Portfolio/static/css/main.936e8e18.css.map",
-    "main.86596290.js.map": "/Zanji-Portfolio/static/js/main.86596290.js.map",
+    "main.6c89a861.css.map": "/Zanji-Portfolio/static/css/main.6c89a861.css.map",
+    "main.abde8ddd.js.map": "/Zanji-Portfolio/static/js/main.abde8ddd.js.map",
     "453.ace21015.chunk.js.map": "/Zanji-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.936e8e18.css",
-    "static/js/main.86596290.js"
+    "static/css/main.6c89a861.css",
+    "static/js/main.abde8ddd.js"
   ]
 }

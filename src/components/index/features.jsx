@@ -1,29 +1,28 @@
 import React from "react";
 import {
-  ComputerDesktopIcon,
-  NewspaperIcon,
-  DevicePhoneMobileIcon,
+  BookOpenIcon,
   BoltIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/20/solid";
-import promotion from "../../assets/image/promotional/appshowcase.png";
+import promotion from "../../assets/image/promotional/myphoto.png";
 const feat = [
   {
-    name: "Intuitive User Interface (UI).",
+    name: "Bachelor's Degree: ",
     description:
-      "Our UI, built with user-friendliness in mind, ensures effortless navigation and natural interactions. Designed for the end-user, it provides an enjoyable, efficient experience with minimal learning curve.",
-    icon: ComputerDesktopIcon,
+      "I hold a Bachelor's degree in Information Technology Major in Network and Web Applications, obtained from Bataan Peninsula State University.",
+    icon: AcademicCapIcon,
   },
   {
-    name: "Fast Loading Times",
+    name: "Fast Learner",
     description:
-      "With ReactJS, our front-end projects load swiftly and efficiently, ensuring users access content without delay for a smooth and responsive experience.",
+      "I'm naturally quick to learn, eagerly absorbing new skills and knowledge. This ability drives my passion for continuous growth and adaptability.",
     icon: BoltIcon,
   },
   {
-    name: "Mobile Responsiveness",
+    name: "Knowledge-seeker",
     description:
-      "My mobile-first approach ensures your front-end projects look and function perfectly on any device, providing a seamless user experience across smartphones, tablets, and desktops.",
-    icon: DevicePhoneMobileIcon,
+      "I'm a curious learner, motivated by a constant desire to grow. During my college days, I delved into game development, photo/video editing, and web development, nurturing my passion for diverse skills.",
+    icon: BookOpenIcon,
   },
 ];
 
@@ -49,13 +48,19 @@ const features = () => {
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-primary dark:text-darkLight">
-                  Tailor-made Features
+                  A brief introduction
                 </h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-lightBG">
-                  A better workflow
+                  Who is{" "}
+                  <span className=" font-league font-bold  text-blue-300">
+                    jizandev.
+                  </span>{" "}
+                  ?
                 </p>
                 <p className="mt-6 text-lg text-justify leading-8 text-gray-600 dark:text-darkLight">
-                Unlock the full potential of your front-end projects with our custom features, crafted to meet your unique needs and drive innovation throughout the entire development process.
+                  I am Jizan Diaz Villafuerte, I hold a bachelor's degree in
+                  Information Technology Major in Network and Web Application. I
+                  am known to have a cheerful and pleasing personality.
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none ">
                   {feat.map((feat) => (
@@ -75,7 +80,7 @@ const features = () => {
                 </dl>
               </div>
             </div>
-            <div className="flex items-center bg-transparent border-none">
+            <div className="flex items-center bg-transparent border-none justify-center lg:justify-normal ">
               <img
                 src={promotion}
                 alt="Product showcase here"

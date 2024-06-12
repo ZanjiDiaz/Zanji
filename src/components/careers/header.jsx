@@ -130,9 +130,7 @@ export default function Header() {
           >
             Our Clients
           </Link>
-          <Link to="/faqs" className="font-semibold text-sm hover:text-primary">
-            FAQs
-          </Link>
+        
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-white">

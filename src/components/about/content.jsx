@@ -53,16 +53,18 @@ const content = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-darkLight">
-              How we started
+              How I started
             </p>
             <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
-              Our story
+            <span className=" text-blue-300 font-league text-6xl text-center">My Story</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8 dark:text-darkLight">
               Why would you choose <span className=" font-league font-bold text-2xl text-gray-900 dark:text-lightBG">jizandev</span>?
             </p>
           </div>
+
           <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-full lg:grid-cols-4">
+            
             <li className="flex-start group relative flex lg:flex-col">
               <span
                 className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)] dark:bg-dark"
@@ -88,7 +90,7 @@ const content = () => {
                   What, When and Where
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                John joined WebTech Solutions as a Front-End Developer in January 2018, driven by his passion for crafting intuitive user interfaces. His decision stemmed from the desire to contribute to innovative web projects and enhance user experiences through cutting-edge design techniques.
+                My name is Jizan, and my journey into web development began during my college days, particularly during our capstone project. Prior to delving into web development, I was immersed in learning Unity game development techniques.
                 </h4>
               </div>
             </li>
@@ -118,7 +120,7 @@ const content = () => {
                   The problem
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                Encountering a common challenge upon joining, John identified the lack of responsiveness in the company's websites across different devices. To address this, he conducted thorough research and implemented responsive design principles using HTML, CSS, and Bootstrap, aiming to elevate user experiences and bolster client satisfaction.
+                When beginning my capstone project, I identified the problem of unresponsiveness in the project's websites across various devices. Similarly, I've faced challenges such as responsiveness issues, slow loading times, and unattractive user interfaces in my own projects.
                 </h4>
               </div>
             </li>
@@ -145,7 +147,7 @@ const content = () => {
                   The solution
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                Implementing a strategic solution, John revamped the company's websites by leveraging his expertise in HTML, CSS, and Bootstrap. His focus on responsive design principles ensured seamless adaptation to varying screen sizes and device types, optimizing performance and enhancing usability.
+                In certain projects, I employ a "mobile-first" strategy for web app development, emphasizing optimization for both mobile and desktop devices using ReactJS and TailwindCSS.
                 </h4>
               </div>
             </li>
@@ -169,7 +171,7 @@ const content = () => {
                   Present
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                Continuously honing his skills, John remains dedicated to staying updated on the latest trends and technologies in front-end development. His unwavering commitment and expertise play a pivotal role in WebTech Solutions' success, consistently exceeding client expectations and driving user engagement with exceptional web designs.
+                Continuously honing my skills, I stay updated on the latest front-end development trends to meet industry standards. My commitment to excellence ensures I consistently exceed expectations, driving user engagement with exceptional web designs.
                 </h4>
               </div>
             </li>
@@ -177,15 +179,16 @@ const content = () => {
         </div>
       </section>
       <div className="bg-white py-24 sm:py-32 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
-        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
-          <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-lightBG">
-              My Trainings and Certifications
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-darkLight">
-              During my time in college, I successfully earned certification in my chosen field of study.
+      <div className="text-center mb-24">
+            <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-darkLight">
+              Credentials
             </p>
+            <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
+              <span className=" text-blue-300 font-league text-6xl text-center">Trainings and Certifications</span>
+            </h2>
           </div>
+        <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
+          
           <ul
             role="list"
             className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3"

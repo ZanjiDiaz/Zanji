@@ -15,11 +15,9 @@ import {
   ChevronDownIcon,
   PhoneIcon,
   PlayCircleIcon,
-  
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/image/logos-software/logo-horizontal.png";
-import LogoVert from "../../assets/image/logos-software/logo-vertical.png";
+
 import ThemeSwitcher from "../../components/index/ThemeSwitcher";
 const products = [
   {
@@ -32,16 +30,13 @@ const products = [
     href: "/websites",
     icon: ComputerDesktopIcon,
   },
-    {
-      name: "Dekstop Game",
-      href: "/pcgame",
-      icon: FaUnity,
-    },
+  {
+    name: "Dekstop Game",
+    href: "/pcgame",
+    icon: FaUnity,
+  },
 ];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
+const callsToAction = [];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -60,7 +55,9 @@ export default function Example() {
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             {/* <img className="h-8 w-auto" src={Logo} alt="" /> */}
-            <h1 className=" font-league font-bold text-xl text-gray-900 dark:text-lightBG">jizandev.</h1>
+            <h1 className=" font-league font-bold text-xl text-gray-900 dark:text-lightBG">
+              jizandev.
+            </h1>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -98,7 +95,7 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-[10rem] top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 dark:ring-lightBG/5 dark:shadow-darkBG dark:bg-darkBG dark:divide-y dark:divide-lightBG/5">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 dark:ring-lightBG/5 dark:shadow-darkBG dark:bg-darkBG dark:divide-y dark:divide-lightBG/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
@@ -127,7 +124,7 @@ export default function Example() {
                   ))}
                 </div>
 
-                <div className="grid grid-cols-2 divide-x  divide-lightBG/5 bg-gray-50 dark:bg-darkBG">
+                <div className="grid grid-cols-2 divide-x divide-lightBG/5 bg-gray-50 dark:bg-darkBG">
                   {callsToAction.map((item) => (
                     <Link
                       key={item.name}
@@ -145,29 +142,23 @@ export default function Example() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          
+
           <Link
             to="/about"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
           >
             About
           </Link>
-          <Link
-            to="/faqs"
-            className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
-          >
-            FAQs
-          </Link>
         </Popover.Group>
         <div className="hidden gap-12 lg:flex lg:flex-1 lg:justify-end">
           <ThemeSwitcher />
 
-          <Link
-            to="/"
+          <a
+            href="mailto:diazjizan@gmail.com"
             className="text-sm font-semibold leading-6 text-gray-900 dark:text-lightBG"
           >
-            Hire Us<span aria-hidden="true">&rarr;</span>
-          </Link>
+            Hire Me<span aria-hidden="true">&rarr;</span>
+          </a>
         </div>
       </nav>
       <Dialog
@@ -181,7 +172,9 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h1 className=" font-league font-bold text-xl text-gray-900 dark:text-lightBG">jizandev.</h1>
+              <h1 className=" font-league font-bold text-xl text-gray-900 dark:text-lightBG">
+                jizandev.
+              </h1>
             </Link>
             <button
               type="button"
@@ -227,30 +220,23 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                
-                
+
                 <Link
                   to="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
                 >
                   About
                 </Link>
-                <Link
-                  to="/faqs"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
-                >
-                  FAQs
-                </Link>
               </div>
               <div className="py-6">
                 <ThemeSwitcher />
 
-                <Link
-                  to="/"
+                <a
+                  href="mailto:diazjizan@gmail.com"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG"
                 >
                   Hire me
-                </Link>
+                </a>
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ function App() {
       }, 500);
     }, 1000);
   }, []);
- 
+
   return (
     <div className="App">
       <div
@@ -37,6 +37,7 @@ function App() {
           />
         </div>
       </div>
+
       <Navbar />
       <Hero />
       <Software />

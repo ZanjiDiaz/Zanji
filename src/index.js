@@ -8,7 +8,6 @@ import Webiste from "./pages/website";
 import Design from "./pages/design";
 import Career from "./pages/career";
 import Clients from "./pages/clients";
-import Faqs from "./pages/faqs";
 import reportWebVitals from "./reportWebVitals";
 import NotFound from "./pages/notfound";
 import { createHashRouter, RouterProvider } from "react-router-dom";
@@ -36,18 +35,7 @@ const router = createHashRouter([
     path: "/pcgame",
     element: <Design />,
   },
-  {
-    path: "/career",
-    element: <Career />,
-  },
-  {
-    path: "/clients",
-    element: <Clients />,
-  },
-  {
-    path: "/faqs",
-    element: <Faqs />,
-  },
+
 ]);
 root.render(
   <React.StrictMode>
